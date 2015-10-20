@@ -12,7 +12,7 @@ module Github
     end
 
     def token
-      "1f9a585becbcf55e6af0f76201e6fcb76d0dc3cf"
+#add GitHub Token here
     end
 
     def headers
