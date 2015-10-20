@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- PURE CSS INFO -->
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="GitHub Hall of Fame" content="Find your rank.">
+
+    <title>GitHub Hall of Fame &ndash; Find your rank.</title>
+
+
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+
+  <link rel="stylesheet" href="/css/marketing.css">
+  <link rel="stylesheet" href="/css/marketing-old-ie.css">
+
+
+
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+
+
+
+  <title></title>
+</head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="/">Repo Ranker</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+        </ul>
+    </div>
+</div>
+
+<%= yield %>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+
+
+</body>
+
+
+</html>

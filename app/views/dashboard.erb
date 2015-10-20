@@ -1,0 +1,52 @@
+<br><br>
+    <div class="content">
+    <h2 class="content-head is-center">Enter your repository details</h2>
+
+  <div class="pure-g">
+      <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+        <form class="pure-form pure-form-stacked" action='/dashboard' method='post'>
+          <fieldset>
+            <label for="organization">Organization</label>
+            <input type="text" name="organization" placeholder="ex. Coinbase">
+            <label for="repo">Repository Name</label>
+            <input type="text" name="repo" placeholder="ex. omniauth-coinbase">
+            <input type="submit" class="pure-button"value="Find Hall of Famers">
+          </fieldset>
+
+        </form>
+      </div>
+
+  <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+    <h3 class="content-head is-center"> <%= @org_name.capitalize %></h3>
+    <h3 class="content-head is-center"> <%= @repo_name %></h3>
+
+    <table class="pure-table center">
+      <thead>
+        <tr>
+          <th>Ranking</th>
+          <th>Gravatar</th>
+          <th>Username</th>
+          <th># Commits</th>
+        </tr>
+      <thead>
+
+      <tbody>
+        <% @contributors.each_with_index do |contributor, index| %>
+        <tr>
+          <td><%= index + 1 %></td>
+          <td><img class="round-photo" src ="<%= contributor["avatar_url"]%>"></td>
+          <td><a href="<%= contributor["html_url"] %>"><%= contributor["login"] %></a></td>
+          <td><%= contributor["contributions"] %></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+  </div>
+
+  <div class="footer l-box is-center">
+          Copyright 2015 by John Hess and Andrea Ruth Coravos
+  </div>
+
+</div>
+
