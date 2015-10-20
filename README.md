@@ -2,6 +2,8 @@
 
 This web app was built in an afternoon at [DevBootcamp in SF](http://www.devbootcamp.com) to learn how to consume an API. We built this app using the GitHub API. 
 
+Repo Ranker is a web app that generates the "Hall of Fame" contributors for any public repository on GitHub
+
 ## What we wanted to learn
 - consume an API in a clean, modular, and extenable way.
 - implement a professional front-end design process.
