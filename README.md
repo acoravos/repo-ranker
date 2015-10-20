@@ -1,6 +1,6 @@
 # Repo Ranker
 
-This web app was built in an afternoon at [DevBootcamp in SF](www.devbootcamp.com) to learn how to consume an API. We built this app using the GitHub API. 
+This web app was built in an afternoon at [DevBootcamp in SF](http://www.devbootcamp.com) to learn how to consume an API. We built this app using the GitHub API. 
 
 ## What we wanted to learn
 - consume an API in a clean, modular, and extenable way.
@@ -8,7 +8,7 @@ This web app was built in an afternoon at [DevBootcamp in SF](www.devbootcamp.co
 - use test-driven development to produce a full-stack application.
 
 ## Demo
-You can checkout a demo of this app at [Repo Ranker on Heroku](repo-ranker.heroku.com). 
+You can checkout a demo of this app at [Repo Ranker on Heroku](http://repo-ranker.heroku.com). 
 
 ## Technologies Used
 - [Sinatra Framework](http://www.sinatrarb.com/)
