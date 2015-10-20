@@ -1,8 +1,7 @@
 # Repo Ranker
 
-This web app was built in an afternoon at [DevBootcamp in SF](www.devbootcamp.com) to learn how to consume an API.
+This web app was built in an afternoon at [DevBootcamp in SF](www.devbootcamp.com) to learn how to consume an API. We built this app using the GitHub API. 
 
-We built this app using the GitHub API. 
 ## What we wanted to learn
 - consume an API in a clean, modular, and extenable way.
 - implement a professional front-end design process.
