@@ -1,11 +1,25 @@
-# Consume an API
+# Repo Ranker
 
-## Learning Competencies
+This web app was built in an afternoon at [DevBootcamp in SF](www.devbootcamp.com) to learn how to consume an API.
+
+We built this app using the GitHub API. 
+## What we wanted to learn
 - consume an API in a clean, modular, and extenable way.
 - implement a professional front-end design process.
 - use test-driven development to produce a full-stack application.
 
-## Summary
+## Demo
+You can checkout a demo of this app at [Repo Ranker on Heroku](repo-ranker.heroku.com). 
+
+## Technologies Used
+- [Sinatra Framework](http://www.sinatrarb.com/)
+- [Pure.css](http://purecss.io/)
+- Ruby
+- [GitHub's API](https://developer.github.com/v3/)
+
+Of note, if you download this repository, you'll need to add your own authorization token in the github.rb model file. Located here: 'repo-ranker/app/models/github.rb'
+
+## Building an app of your own
 
 You'll be building an application that consumes a few endpoints of the 
 [Github API](https://developer.github.com/v3/). You're going to be making a 
