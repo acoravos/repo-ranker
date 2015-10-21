@@ -1,4 +1,4 @@
-# Repo Ranker
+# RepoRanker
 
 This web app was built in an afternoon at [DevBootcamp in SF](http://www.devbootcamp.com) to learn how to consume an API. We built this app using the GitHub API. 
 
