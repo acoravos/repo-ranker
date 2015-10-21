@@ -10,7 +10,7 @@ Repo Ranker is a web app that generates the "Hall of Fame" contributors for any 
 - use test-driven development to produce a full-stack application.
 
 ## Demo
-You can checkout a demo of this app at [Repo Ranker on Heroku](http://repo-ranker.heroku.com). 
+You can checkout a demo of this app at [RepoRanker on Heroku](http://repo-ranker.heroku.com). 
 
 ## Technologies Used
 - [Sinatra Framework](http://www.sinatrarb.com/)
